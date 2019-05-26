@@ -1,9 +1,4 @@
-var http = require('http');
+var express = require('express'),
+    routes = require('./routes'),
+    db = require('./model/db');
 
-var server = http.createServer(function(req, res){
-    res.writeHead(200, {'Content-Type':'text/plain'});
-    res.write('Hello world');
-    res.end();
-});
-
-server.listen(3000, '127.0.0.1');
