@@ -1,12 +1,18 @@
 {
-  "name": "second",
-  "version": "1.0.0",
-  "description": "second node project",
-  "main": "index.js",
-  "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node index.js"
-  },
-  "author": "ivoshet",
-  "license": "ISC"
+    "name": "second",
+    "version": "1.0.0",
+    "description": "second node project",
+    "main": "app.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"
+    },
+    "author": "ivoshet",
+    "license": "ISC",
+    "dependencies": {
+	"express": "^4.17.1"
+    },
+    "devDependencies": {
+	"grunt": "^1.0.4"
+    }
 }
