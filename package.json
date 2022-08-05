@@ -12,7 +12,7 @@
   "dependencies": {
     "connect": "^3.7.0",
     "express": "^4.17.0",
-    "mongoose": "^5.5.11",
+    "mongoose": "^5.7.5",
     "pug": "^2.0.3"
   }
 }
